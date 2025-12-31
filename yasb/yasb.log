@@ -3454,3 +3454,1031 @@ widgets:
 2025-12-21 20:00:37,599 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
 2025-12-21 20:00:37,600 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_COMMLTDSONYTV16843009.json
 2025-12-21 20:00:37,602 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 263612
+2025-12-29 16:37:37,329 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-29 16:37:37,331 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-29 16:37:37,332 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-29 16:37:42,762 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-29 16:37:45,876 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-29 16:37:47,122 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-29 16:37:47,123 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-29 16:37:47,203 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-29 16:37:47,203 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-29 16:37:47,223 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-29 16:37:47,241 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-29 16:37:47,241 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-12-29 16:37:47,622 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-29 16:37:47,623 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-29 16:37:48,101 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1311914
+2025-12-29 16:37:48,106 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-29 16:37:48,110 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49264
+2025-12-29 17:40:21,663 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-29 17:40:21,669 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-29 17:40:21,670 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-29 17:40:21,670 [DEBUG] [MainThread] [systray_widget/systray.py:516]: State file not found.
+2025-12-29 17:40:21,672 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1311914
+2025-12-30 10:01:08,643 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-30 10:01:08,644 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-30 10:01:08,644 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-30 10:01:09,875 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-30 10:01:10,058 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-30 10:01:10,355 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-30 10:01:10,356 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-30 10:01:10,441 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-30 10:01:10,441 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-30 10:01:10,444 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-30 10:01:10,471 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-30 10:01:10,473 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-30 10:01:10,653 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-30 10:01:10,857 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 196832
+2025-12-30 10:01:10,870 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-30 10:01:10,874 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49270
+2025-12-30 13:10:39,917 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-30 13:24:12,393 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-30 13:24:12,394 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-30 13:24:12,507 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-30 13:24:12,507 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-30 13:24:12,568 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-30 13:24:12,572 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-30 13:24:12,573 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-30 13:24:12,575 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 196832
+2025-12-30 13:24:12,583 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-30 13:24:12,584 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-30 13:24:12,586 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-30 13:24:12,605 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 196832
+2025-12-30 13:24:14,026 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-30 13:24:14,027 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-30 13:24:14,028 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-30 13:24:17,707 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-30 13:24:18,166 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-30 13:24:19,531 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-30 13:24:19,532 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-30 13:24:19,616 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-30 13:24:19,616 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-30 13:24:19,618 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-30 13:24:19,666 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_DISPLAY5.json
+2025-12-30 13:24:19,668 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-12-30 13:24:19,670 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-30 13:24:19,832 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-30 13:24:19,832 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-30 13:24:19,942 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-30 13:24:19,942 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-30 13:24:19,944 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-30 13:24:19,951 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-30 13:24:19,951 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-30 13:24:20,043 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-30 13:24:20,052 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-30 13:24:20,053 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-30 13:24:20,503 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-30 13:24:20,505 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-30 13:24:20,505 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY6.json
+2025-12-30 13:24:20,506 [DEBUG] [MainThread] [systray_widget/systray.py:516]: State file not found.
+2025-12-30 13:24:20,507 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 132132
+2025-12-30 13:24:20,514 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-30 13:24:20,516 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-30 13:24:20,519 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-30 13:24:20,532 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 132132
+2025-12-30 13:24:20,885 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-30 13:24:20,886 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-30 13:24:20,886 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-30 13:24:21,149 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-30 13:24:21,150 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-30 13:24:21,150 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-30 13:24:21,151 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-30 13:24:21,757 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-30 13:24:21,899 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-30 13:24:22,293 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-30 13:24:22,295 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-30 13:24:22,366 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-30 13:24:22,366 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-30 13:24:22,368 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-30 13:24:22,408 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY6.json
+2025-12-30 13:24:22,412 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-30 13:24:22,656 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-30 13:24:22,863 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 131508
+2025-12-30 13:24:22,867 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-30 13:24:22,872 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49270
+2025-12-30 13:24:31,169 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2025-12-30 13:27:35,427 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-30 13:27:35,427 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-30 13:27:35,534 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-30 13:27:35,535 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-30 13:27:35,592 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-30 13:27:35,594 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-30 13:27:35,595 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY6.json
+2025-12-30 13:27:35,600 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 131508
+2025-12-30 13:27:35,602 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-30 13:27:35,613 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-30 13:27:35,697 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-30 13:27:35,990 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 131508
+2025-12-30 13:27:37,358 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-30 13:27:37,359 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-30 13:27:37,359 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-30 13:27:38,460 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-30 13:27:38,591 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-30 13:27:38,987 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-30 13:27:38,989 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-30 13:27:39,064 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-30 13:27:39,064 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-30 13:27:39,067 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-30 13:27:39,069 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY11.json
+2025-12-30 13:27:39,070 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-12-30 13:27:39,071 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-30 13:27:39,196 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-30 13:27:39,386 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-30 13:27:39,397 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2099406
+2025-12-30 13:27:39,420 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49270
+2025-12-30 18:06:19,548 [INFO] [MainThread] [root/controller.py:35]: Exiting Application...
+2025-12-30 18:06:19,662 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-30 18:06:19,662 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-30 18:06:19,763 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-30 18:06:19,766 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-30 18:06:19,768 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY11.json
+2025-12-30 18:06:19,769 [DEBUG] [MainThread] [systray_widget/systray.py:516]: State file not found.
+2025-12-30 18:06:19,771 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2099406
+2025-12-30 18:06:19,816 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-30 18:06:19,820 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-30 18:06:19,825 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-30 18:06:19,865 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2099406
+2025-12-31 09:44:02,973 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 09:44:02,982 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 09:44:02,983 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 09:44:04,971 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 09:44:05,277 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 09:44:06,015 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 09:44:06,120 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 09:44:06,121 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 09:44:06,222 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 09:44:06,223 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 09:44:06,226 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 09:44:06,253 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 09:44:06,254 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-12-31 09:44:06,256 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 09:44:06,328 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 09:44:06,412 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 09:44:06,615 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 132514
+2025-12-31 09:44:06,622 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 09:44:06,628 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 11:52:44,111 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 11:52:44,116 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 11:52:44,227 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 11:52:44,228 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 11:52:44,237 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 11:52:45,053 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 11:52:45,054 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 11:52:45,155 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 11:52:45,155 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 11:52:45,508 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 11:52:45,812 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 11:52:45,817 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 11:52:45,819 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 11:52:45,819 [DEBUG] [MainThread] [systray_widget/systray.py:516]: State file not found.
+2025-12-31 11:52:45,822 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 132514
+2025-12-31 11:52:45,824 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 11:52:45,825 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 11:52:45,827 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 132514
+2025-12-31 11:52:45,846 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 11:52:45,853 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 11:52:45,860 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 11:52:46,098 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 132514
+2025-12-31 11:52:46,499 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 11:52:46,500 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 11:52:46,500 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 11:52:46,501 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 11:52:46,501 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 11:52:46,501 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-31 11:52:47,680 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 11:52:47,822 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 11:52:49,444 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 12:04:32,652 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2025-12-31 12:04:33,290 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 12:04:33,293 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 12:04:33,478 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 12:04:33,478 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 12:04:33,480 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 12:04:33,541 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 12:04:33,545 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 12:04:33,758 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 12:04:33,906 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 12:04:34,108 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 526798
+2025-12-31 12:04:34,112 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 12:04:34,124 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 12:04:34,224 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2025-12-31 12:04:34,224 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-12-31 13:07:56,852 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:07:56,854 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:07:56,971 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:07:56,973 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:07:56,983 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:07:57,624 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:07:57,631 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:07:57,634 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:07:57,638 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 526798
+2025-12-31 13:07:57,639 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:07:57,640 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:07:57,641 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 526798
+2025-12-31 13:07:57,662 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:07:57,664 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:07:57,672 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:07:57,695 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 526798
+2025-12-31 13:07:58,000 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:07:58,001 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:07:58,002 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:07:59,447 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:07:59,679 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:08:00,451 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:08:00,466 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:08:00,529 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:08:00,529 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:08:00,530 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:08:00,560 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSMS_1.json
+2025-12-31 13:08:00,560 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-12-31 13:08:00,562 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:08:08,438 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:09:44,844 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:09:44,844 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:09:44,949 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:09:44,949 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:09:45,151 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:09:45,153 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:09:45,154 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:09:45,155 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 263596
+2025-12-31 13:09:45,162 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:09:45,163 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:09:45,165 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:09:45,188 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 263596
+2025-12-31 13:09:45,849 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:09:45,850 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:09:45,850 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:09:47,313 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:09:47,572 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:09:48,267 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:09:48,621 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:09:48,623 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:09:48,755 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:09:48,755 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:09:48,756 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:09:48,758 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:09:48,759 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:09:48,818 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:09:48,867 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 13:09:49,074 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1508856
+2025-12-31 13:09:49,080 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:09:49,085 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 13:10:44,750 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:10:44,797 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen HP 527sf
+2025-12-31 13:10:59,094 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen HP 527sf
+2025-12-31 13:10:59,186 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:13:13,877 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:13:13,877 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:13:13,977 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:13:13,978 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:13:13,978 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:13:14,816 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:13:14,816 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:13:14,917 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:13:14,917 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:13:15,301 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:13:15,945 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:13:15,949 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:13:15,950 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:13:15,954 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1508856
+2025-12-31 13:13:15,954 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:13:15,959 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:13:15,963 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1508856
+2025-12-31 13:13:16,002 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:13:16,004 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:13:16,021 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:13:16,071 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1508856
+2025-12-31 13:13:16,268 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:13:16,269 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:13:16,270 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:13:16,365 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:13:16,366 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:13:16,366 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:13:16,367 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-31 13:13:18,024 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:13:18,299 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:13:18,967 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:13:19,259 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:13:19,264 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:13:19,402 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:13:19,403 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:13:19,404 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:13:19,406 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:13:19,407 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:13:19,490 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:13:19,547 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 13:13:19,753 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 526834
+2025-12-31 13:13:19,758 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:13:19,771 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 13:13:26,401 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2025-12-31 13:14:57,316 [INFO] [MainThread] [root/controller.py:15]: Reloading Bar from context menu...
+2025-12-31 13:14:57,427 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:14:57,427 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:14:57,679 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:14:57,680 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:14:57,681 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:14:57,682 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 526834
+2025-12-31 13:14:57,682 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:14:57,682 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:14:57,684 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 526834
+2025-12-31 13:14:57,689 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:14:57,700 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:14:57,702 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:14:57,709 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 526834
+2025-12-31 13:14:58,311 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:14:58,312 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:14:58,313 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:14:59,946 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:15:00,208 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:15:00,845 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:15:01,051 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:15:01,053 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:15:01,163 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:15:01,164 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:15:01,167 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:15:01,170 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:15:01,171 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:15:01,255 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:15:01,308 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 13:15:01,511 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1051086
+2025-12-31 13:15:01,514 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:15:01,523 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 13:15:07,500 [INFO] [MainThread] [root/controller.py:15]: Reloading Bar from context menu...
+2025-12-31 13:15:07,608 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:15:07,608 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:15:07,821 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:15:07,823 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:15:07,823 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:15:07,825 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1051086
+2025-12-31 13:15:07,826 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:15:07,826 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:15:07,827 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1051086
+2025-12-31 13:15:07,835 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:15:07,851 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:15:07,852 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:15:07,858 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1051086
+2025-12-31 13:15:08,532 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:15:08,534 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:15:08,535 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:15:10,080 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:15:10,342 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:15:10,994 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:15:11,298 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:15:11,302 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:15:11,428 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:15:11,428 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:15:11,430 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:15:11,432 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:15:11,434 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:15:11,498 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:15:11,561 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 13:15:11,766 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1509786
+2025-12-31 13:15:11,774 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:15:11,780 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 13:15:23,300 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:15:23,361 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen HP 527sf
+2025-12-31 13:15:34,394 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen HP 527sf
+2025-12-31 13:15:34,427 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:21:40,271 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:21:40,271 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:21:40,388 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:21:40,389 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:21:40,389 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:21:41,334 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:21:41,334 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:21:41,438 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:21:41,439 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:21:41,799 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:21:42,410 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:21:42,411 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:21:42,412 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:21:42,414 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509786
+2025-12-31 13:21:42,415 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:21:42,417 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:21:42,419 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509786
+2025-12-31 13:21:42,431 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:21:42,445 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:21:42,452 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:21:42,651 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509786
+2025-12-31 13:21:42,691 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:21:42,692 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:21:42,692 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:21:42,822 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:21:42,823 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:21:42,824 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:21:42,825 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-31 13:21:44,338 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:21:44,603 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:21:45,469 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:21:45,760 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:21:45,762 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:21:45,923 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:21:45,923 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:21:45,925 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:21:45,927 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:21:45,930 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:21:46,024 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:21:46,102 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 13:21:46,305 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 461402
+2025-12-31 13:21:46,307 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:21:46,316 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 13:21:50,415 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:21:50,415 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:21:50,524 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:21:50,524 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:21:50,524 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2025-12-31 13:21:50,777 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-12-31 13:21:50,777 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-12-31 13:21:50,890 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 13:21:50,890 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 13:21:51,319 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:21:51,320 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:21:51,321 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:21:51,321 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-31 13:21:51,380 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 13:21:51,382 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:21:51,383 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:21:51,385 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 461402
+2025-12-31 13:21:51,386 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 13:21:51,387 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:21:51,388 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 461402
+2025-12-31 13:21:51,540 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 13:21:51,553 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 13:21:51,560 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 13:21:51,741 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 461402
+2025-12-31 13:21:51,822 [INFO] [MainThread] [root/main.py:71]: Previous instance exited, continuing startup.
+2025-12-31 13:21:52,431 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 13:21:52,433 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 13:21:52,433 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 13:21:52,434 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-31 13:21:52,865 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2025-12-31 13:21:53,350 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:21:53,612 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 13:21:54,548 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 13:21:54,916 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 13:21:54,921 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 13:21:55,100 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 13:21:55,101 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 13:21:55,104 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 13:21:55,108 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 13:21:55,111 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 13:21:55,256 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 13:21:55,336 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 13:21:55,538 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1640776
+2025-12-31 13:21:55,547 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 13:21:55,552 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 13:22:02,459 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2025-12-31 15:26:05,932 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\kunwa\.config\yasb\config.yaml' contains validation errors. Please fix:
+battery:
+- unknown field
+
+2025-12-31 15:27:33,895 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\kunwa\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- battery:
+  - null value not allowed
+
+2025-12-31 15:28:29,757 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\kunwa\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- battery:
+  - null value not allowed
+
+2025-12-31 15:28:56,785 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\kunwa\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- battery:
+  - null value not allowed
+
+2025-12-31 15:29:23,840 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\kunwa\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- battery:
+  - null value not allowed
+
+2025-12-31 15:30:56,794 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:30:56,897 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:30:56,898 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:30:56,992 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:30:57,458 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:30:57,464 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:30:57,465 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:30:57,468 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1640776
+2025-12-31 15:30:57,468 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:30:57,470 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:30:57,472 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1640776
+2025-12-31 15:30:57,486 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:30:57,497 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:30:57,502 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:30:57,533 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1640776
+2025-12-31 15:30:58,816 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:30:58,818 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:30:58,819 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:31:01,128 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:31:01,402 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:31:03,020 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:31:03,756 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:31:03,758 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:31:04,021 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:31:04,023 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:31:04,058 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:31:04,126 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:31:04,141 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:31:04,225 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:31:04,297 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:31:04,504 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1247480
+2025-12-31 15:31:04,512 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:31:04,551 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:33:40,031 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:33:40,142 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:33:40,143 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:33:40,227 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:33:40,741 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:33:40,744 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:33:40,746 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:33:40,749 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1247480
+2025-12-31 15:33:40,750 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:33:40,751 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:33:40,754 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1247480
+2025-12-31 15:33:40,763 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:33:40,774 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:33:40,777 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:33:40,796 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1247480
+2025-12-31 15:33:42,022 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:33:42,024 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:33:42,025 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:33:44,146 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:33:44,510 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:33:46,354 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:33:46,884 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:33:46,888 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:33:47,009 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:33:47,009 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:33:47,014 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:33:47,018 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:33:47,019 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:33:47,067 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:33:47,098 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:33:47,313 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1247702
+2025-12-31 15:33:47,345 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:33:47,394 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:36:21,435 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\kunwa\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- media:
+  - null value not allowed
+
+2025-12-31 15:36:55,455 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:36:55,558 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:36:55,559 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:36:55,610 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:36:56,275 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:36:56,284 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:36:56,286 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:36:56,291 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1247702
+2025-12-31 15:36:56,292 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:36:56,294 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:36:56,300 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1247702
+2025-12-31 15:36:56,322 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:36:56,332 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:36:56,339 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:36:56,385 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1247702
+2025-12-31 15:36:57,315 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:36:57,318 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:36:57,319 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:36:59,284 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:36:59,575 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:37:01,410 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:37:02,074 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:37:02,077 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:37:02,309 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:37:02,309 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:37:02,313 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:37:02,323 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:37:02,327 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:37:02,440 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:37:02,581 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:37:02,796 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2754796
+2025-12-31 15:37:02,842 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:37:02,876 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:37:14,225 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:37:14,327 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:37:14,327 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:37:14,396 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:37:15,074 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:37:15,078 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:37:15,079 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:37:15,081 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2754796
+2025-12-31 15:37:15,081 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:37:15,082 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:37:15,083 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2754796
+2025-12-31 15:37:15,104 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:37:15,105 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:37:15,110 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:37:15,170 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2754796
+2025-12-31 15:37:16,201 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:37:16,203 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:37:16,205 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:37:17,878 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:37:18,145 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:37:20,051 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:37:20,486 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:37:20,488 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:37:20,588 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:37:20,588 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:37:20,591 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:37:20,595 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:37:20,598 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:37:20,685 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:37:20,776 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:37:20,981 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1246432
+2025-12-31 15:37:21,002 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:37:21,013 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:37:33,356 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\kunwa\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\kunwa\.config\yasb\config.yaml", line 543, column 5
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\kunwa\.config\yasb\config.yaml", line 562, column 7
+2025-12-31 15:38:47,415 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:38:47,525 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:38:47,525 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:38:47,595 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:38:48,340 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:38:48,344 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:38:48,346 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:38:48,348 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1246432
+2025-12-31 15:38:48,349 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:38:48,350 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:38:48,352 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1246432
+2025-12-31 15:38:48,382 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:38:48,386 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:38:48,396 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:38:48,795 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1246432
+2025-12-31 15:38:49,574 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:38:49,575 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:38:49,577 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:38:51,382 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:38:51,659 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:38:53,384 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:38:53,947 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:38:53,950 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:38:54,105 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:38:54,106 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:38:54,108 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:38:54,115 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:38:54,121 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:38:54,371 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:38:54,523 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:38:54,728 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1050636
+2025-12-31 15:38:54,735 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:38:54,770 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:40:00,269 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:40:00,384 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:40:00,386 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:40:00,447 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:40:01,022 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:40:01,026 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:40:01,027 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:40:01,029 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050636
+2025-12-31 15:40:01,030 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:40:01,031 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:40:01,033 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050636
+2025-12-31 15:40:01,050 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:40:01,062 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:40:01,065 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:40:01,092 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050636
+2025-12-31 15:40:01,771 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:40:01,774 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:40:01,777 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:40:03,966 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:40:04,065 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:40:05,469 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:40:06,084 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:40:06,089 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:40:06,222 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:40:06,222 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:40:06,224 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:40:06,236 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:40:06,239 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:40:06,286 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:40:06,390 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:40:06,615 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 5179712
+2025-12-31 15:40:06,662 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:40:06,680 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:40:27,682 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:27,684 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:27,685 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:27,686 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:35,295 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:35,296 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:35,297 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:35,297 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:45,758 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-31 15:40:45,863 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:40:45,864 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:40:45,925 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-31 15:40:46,680 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:40:46,684 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:40:46,685 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:40:46,687 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5179712
+2025-12-31 15:40:46,689 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:40:46,690 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:40:46,692 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5179712
+2025-12-31 15:40:46,720 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:40:46,729 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:40:46,751 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:40:47,276 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:40:47,276 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:40:47,277 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:40:47,278 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-31 15:40:53,811 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5179712
+2025-12-31 15:40:54,049 [INFO] [MainThread] [root/main.py:71]: Previous instance exited, continuing startup.
+2025-12-31 15:40:56,321 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:40:56,400 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:40:58,368 [ERROR] [MainThread] [root/weather.py:60]: API key or location is missing. Please provide a valid API key and location.
+2025-12-31 15:40:59,089 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-31 15:40:59,110 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:40:59,274 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:40:59,274 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:40:59,276 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:40:59,290 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:40:59,293 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:40:59,441 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:40:59,522 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:40:59,664 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:59,669 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:59,685 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:59,689 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:40:59,734 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1771898
+2025-12-31 15:40:59,768 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:40:59,783 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:41:05,277 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:05,279 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:13,158 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:13,159 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:14,148 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:14,149 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:14,861 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:14,863 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:15,167 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:15,168 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:15,415 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:41:15,417 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:42:19,842 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:42:19,844 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2025-12-31 15:45:35,357 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:45:35,358 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:45:35,359 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:45:35,360 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-31 15:46:48,950 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:46:48,951 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:46:48,951 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:46:48,952 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2025-12-31 15:50:14,381 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: stop
+2025-12-31 15:50:14,381 [INFO] [Thread-1 (_run_server)] [root/controller.py:35]: Exiting Application from CLI...
+2025-12-31 15:50:14,485 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:50:14,486 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:50:14,819 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-31 15:50:14,822 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:50:14,823 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:50:14,826 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1771898
+2025-12-31 15:50:14,827 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:50:14,829 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:50:14,831 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1771898
+2025-12-31 15:50:14,866 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:50:14,883 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:50:14,885 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:50:15,230 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1771898
+2025-12-31 15:50:16,812 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:50:16,813 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:50:16,813 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:50:19,323 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:50:21,013 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-31 15:50:21,789 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:50:21,861 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:50:21,861 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:50:21,863 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:50:21,867 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:50:21,868 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:50:21,918 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:50:21,944 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:50:22,147 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1378170
+2025-12-31 15:50:22,156 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:50:22,169 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:51:40,500 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: stop
+2025-12-31 15:51:40,500 [INFO] [Thread-1 (_run_server)] [root/controller.py:35]: Exiting Application from CLI...
+2025-12-31 15:51:40,605 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:51:40,605 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:51:40,891 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-12-31 15:51:40,892 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:51:40,892 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:51:40,893 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1378170
+2025-12-31 15:51:40,894 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:51:40,894 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:51:40,895 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1378170
+2025-12-31 15:51:40,910 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:51:40,924 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:51:40,929 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:51:40,946 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1378170
+2025-12-31 15:51:42,078 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:51:42,078 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:51:42,079 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:51:42,694 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:51:43,443 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-31 15:51:43,443 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-12-31 15:51:43,444 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:51:43,534 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-80efc27f-e632-11f0-95d3-282e89df58f4
+2025-12-31 15:51:43,562 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:51:43,563 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:51:43,564 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:51:43,567 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:51:43,569 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-31 15:51:43,571 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:51:43,599 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-31 15:51:43,803 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1509176
+2025-12-31 15:51:43,809 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-31 15:51:43,824 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49275
+2025-12-31 15:53:14,599 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: stop
+2025-12-31 15:53:14,599 [INFO] [Thread-1 (_run_server)] [root/controller.py:35]: Exiting Application from CLI...
+2025-12-31 15:53:14,704 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:53:14,704 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:53:14,985 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-31 15:53:14,985 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-12-31 15:53:14,986 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:53:14,987 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_KHP527SF3CM4210ZSL.json
+2025-12-31 15:53:14,988 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509176
+2025-12-31 15:53:14,990 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-31 15:53:14,991 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\kunwa\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2025-12-31 15:53:14,993 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509176
+2025-12-31 15:53:15,006 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:53:15,007 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:53:15,014 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:53:15,061 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509176
+2025-12-31 15:53:16,214 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:53:16,215 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:53:16,215 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:53:16,864 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:53:17,526 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-31 15:53:18,042 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-12-31 15:53:18,043 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:53:18,115 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:53:18,115 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:53:18,118 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:53:18,483 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:18,483 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:18,485 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:28,591 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:28,591 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:28,593 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:28,673 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:38,711 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:38,711 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:38,712 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:38,713 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:48,846 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:48,846 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:48,847 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:48,848 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:58,983 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:53:58,983 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:58,984 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:53:58,985 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:09,120 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:09,121 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:09,121 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:09,122 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:19,257 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:19,258 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:19,259 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:19,260 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:29,396 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:29,397 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:29,399 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:29,400 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:39,534 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:39,534 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:39,536 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:39,537 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:49,670 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:49,671 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:49,671 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:49,672 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:59,810 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:54:59,810 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:59,811 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:54:59,812 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:09,948 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:09,948 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:09,949 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:09,951 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:20,083 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:20,084 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:20,085 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:20,086 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:30,222 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:30,222 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:30,224 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:30,225 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:40,358 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:40,359 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:40,361 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:40,362 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:50,496 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:55:50,496 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:50,497 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:55:50,498 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:00,633 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:00,633 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:00,634 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:00,635 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:10,782 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:10,782 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:10,783 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:10,784 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:20,910 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:20,910 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:20,911 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:20,913 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:31,046 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:31,047 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:31,048 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:31,049 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:41,184 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:41,184 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:41,186 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:41,187 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:51,628 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:56:51,629 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:51,631 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:56:51,634 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:01,767 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:01,768 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:01,769 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:01,770 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:11,905 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:11,905 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:11,906 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:11,908 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:22,040 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:22,041 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:22,042 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:22,042 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:32,178 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:32,178 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:32,180 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:32,181 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:42,317 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:42,318 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:42,319 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:42,321 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:52,454 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:57:52,455 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:52,456 [WARNING] [MainThread] [root/weather.py:594]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-12-31 15:57:52,457 [ERROR] [MainThread] [root/api.py:82]: Weather API invalid JSON response: Expecting value: line 1 column 1 (char 0)
+2025-12-31 15:58:01,377 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: stop
+2025-12-31 15:58:01,377 [INFO] [Thread-1 (_run_server)] [root/controller.py:35]: Exiting Application from CLI...
+2025-12-31 15:58:01,484 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:58:01,484 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:58:01,865 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-12-31 15:58:01,865 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-12-31 15:58:01,894 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:58:01,899 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:58:01,903 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:58:04,024 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:58:04,025 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:58:04,026 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:58:04,299 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:58:06,086 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-12-31 15:58:06,413 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-12-31 15:58:06,416 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-31 15:58:06,419 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:58:06,535 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-653506be-e633-11f0-bdc8-282e89df58f4
+2025-12-31 15:58:06,612 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:58:06,613 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:58:06,620 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:58:07,118 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-12-31 15:58:07.118215
+2025-12-31 15:59:54,162 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: stop
+2025-12-31 15:59:54,162 [INFO] [Thread-1 (_run_server)] [root/controller.py:35]: Exiting Application from CLI...
+2025-12-31 15:59:54,274 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 15:59:54,275 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 15:59:54,647 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-12-31 15:59:54,647 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-31 15:59:54,648 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-12-31 15:59:54,740 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 15:59:54,749 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 15:59:54,753 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-31 15:59:57,027 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-31 15:59:57,028 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-31 15:59:57,030 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-31 15:59:57,418 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-31 15:59:58,914 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-31 15:59:58,914 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\kunwa\.config\yasb
+2025-12-31 15:59:58,990 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-a842a021-e633-11f0-addc-282e89df58f4
+2025-12-31 15:59:59,031 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-31 15:59:59,032 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-31 15:59:59,033 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-31 15:59:59,634 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-12-31 15:59:59.634065
+2025-12-31 16:00:34,422 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: stop
+2025-12-31 16:00:34,422 [INFO] [Thread-1 (_run_server)] [root/controller.py:35]: Exiting Application from CLI...
+2025-12-31 16:00:34,526 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-31 16:00:34,528 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-31 16:00:34,906 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-31 16:00:34,983 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-31 16:00:34,998 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-31 16:00:35,003 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
