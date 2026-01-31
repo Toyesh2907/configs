@@ -2,7 +2,7 @@
 -- ===================================================
 -- Leader Key:
 -- The leader key is set to CTRL + b, with a timeout of 2000 milliseconds (2 seconds).
--- To execute any keybinding, press the leader key (CTRL + b) ,first, then the corresponding key.
+-- To execute any keybinding, press the leader key (CTRL + b) first, then the corresponding key.
 
 -- Keybindings:
 -- 1. Tab Management:
@@ -33,7 +33,7 @@
 -- Miscellaneous Configurations:
 -- - Tabs are shown even if there's only one tab.
 -- - The tab bar is located at the bottom of the terminal window.
--- - Tab and split indices are zero-based.
+-- - Tab and split indices are one-based.
 
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
@@ -46,6 +46,9 @@ local config = {}
 if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
+
+-- Load tabline.wez plugin
+local tabline = wezterm.plugin.require("https://github.com/michaelbrusegard/tabline.wez")
 
 -- max fps
 config.max_fps = 240
@@ -160,6 +163,30 @@ config.window_frame = {
 	border_top_color = colors.border,
 }
 
+-- Pane border configuration
+config.window_padding = {
+	left = 2,
+	right = 2,
+	top = 2,
+	bottom = 2,
+}
+
+-- Inactive pane appearance
+config.inactive_pane_hsb = {
+	saturation = 0.8,
+	brightness = 0.7,
+}
+
+-- Pane border colors and size
+config.colors = {
+	-- You can add more color customizations here if needed
+	split = colors.border, -- Color of the split/pane borders
+}
+
+-- Note: The actual border SIZE between panes is controlled by the font rendering
+-- To make borders MORE visible, you can adjust inactive_pane_hsb settings above
+-- A thicker visual separation can be achieved by dimming inactive panes more
+
 --[[
 ============================
 Shortcuts
@@ -242,122 +269,83 @@ config.keys = {
 	},
 }
 
-for i = 0, 9 do
-	-- leader + number to activate that tab
+for i = 1, 9 do
+	-- leader + number to activate that tab (1-based indexing)
 	table.insert(config.keys, {
 		key = tostring(i),
 		mods = "LEADER",
-		action = wezterm.action.ActivateTab(i),
+		action = wezterm.action.ActivateTab(i - 1),
 	})
 end
 
+-- leader + 0 to activate tab 10
+table.insert(config.keys, {
+	key = "0",
+	mods = "LEADER",
+	action = wezterm.action.ActivateTab(9),
+})
+
 --[[
 ============================
-Tab Bar
+Tabline.wez Configuration
 ============================
 ]]
 --
 
--- tab bar
-config.hide_tab_bar_if_only_one_tab = false
-config.tab_bar_at_bottom = true
-config.use_fancy_tab_bar = false
-config.tab_and_split_indices_are_zero_based = true
-
-local function tab_title(tab_info)
-	-- If user explicitly renamed the tab, respect it
-	if tab_info.tab_title and #tab_info.tab_title > 0 then
-		return tab_info.tab_title
+-- Custom function to show leader indicator only when active
+local function leader_mode_indicator(window)
+	if window:leader_is_active() then
+		return leader_prefix .. " LEADER"
 	end
-
-	-- Otherwise derive title from foreground process
-	local pane = tab_info.active_pane
-	local process = pane.foreground_process_name
-
-	if process then
-		-- Strip full path → just executable name
-		return process:gsub("(.*[/\\])", ""):gsub("%.exe$", "")
-	end
-
-	return "shell"
+	return ""
 end
 
-wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_width)
-	local title = " " .. tab.tab_index .. ": " .. tab_title(tab) .. " "
-	local left_edge_text = ""
-	local right_edge_text = ""
+-- Configure tabline.wez with your preferred settings
+tabline.setup({
+	options = {
+		icons_enabled = true,
+		theme = "GruvboxDarkHard", -- Match your color scheme
+		tabs_enabled = true,
+		section_separators = {
+			left = wezterm.nerdfonts.pl_left_hard_divider,
+			right = wezterm.nerdfonts.pl_right_hard_divider,
+		},
+		component_separators = {
+			left = wezterm.nerdfonts.pl_left_soft_divider,
+			right = wezterm.nerdfonts.pl_right_soft_divider,
+		},
+		tab_separators = {
+			left = wezterm.nerdfonts.pl_left_hard_divider,
+			right = wezterm.nerdfonts.pl_right_hard_divider,
+		},
+	},
+	sections = {
+		tabline_a = { leader_mode_indicator },
+		tabline_b = { "workspace" },
+		tabline_c = { " " },
+		tab_active = {
+			"index",
+			{ "parent", padding = 0 },
+			"/",
+			{ "cwd", padding = { left = 0, right = 1 } },
+			{ "zoomed", padding = 0 },
+		},
+		tab_inactive = { "index", { "process", padding = { left = 0, right = 1 } } },
+		tabline_x = { "ram", "cpu" },
+		tabline_y = { "datetime", "battery" },
+		tabline_z = { "hostname" },
+	},
+	extensions = {},
+})
 
-	if tab_style == "rounded" then
-		title = tab.tab_index .. ": " .. tab_title(tab)
-		title = wezterm.truncate_right(title, max_width - 2)
-		left_edge_text = wezterm.nerdfonts.ple_left_half_circle_thick
-		right_edge_text = wezterm.nerdfonts.ple_right_half_circle_thick
-	end
+-- Apply tabline recommended settings to config
+tabline.apply_to_config(config)
 
-	-- ensure that the titles fit in the available space,
-	-- and that we have room for the edges.
-	-- title = wezterm.truncate_right(title, max_width - 2)
+-- Override specific settings from tabline if needed
+config.hide_tab_bar_if_only_one_tab = false
+config.tab_bar_at_bottom = true
+config.tab_and_split_indices_are_zero_based = false
 
-	if tab.is_active then
-		return {
-			{ Background = { Color = colors.tab_bar_active_tab_bg } },
-			{ Foreground = { Color = colors.tab_bar_active_tab_fg } },
-			{ Text = left_edge_text },
-			{ Background = { Color = colors.tab_bar_active_tab_fg } },
-			{ Foreground = { Color = colors.tab_bar_text } },
-			{ Text = title },
-			{ Background = { Color = colors.tab_bar_active_tab_bg } },
-			{ Foreground = { Color = colors.tab_bar_active_tab_fg } },
-			{ Text = right_edge_text },
-		}
-	end
-end)
-
---[[
-============================
-Leader Active Indicator
-============================
-]]
---
-
-wezterm.on("update-status", function(window, _)
-	-- leader inactive
-	local solid_left_arrow = ""
-	local arrow_foreground = { Foreground = { Color = colors.arrow_foreground_leader } }
-	local arrow_background = { Background = { Color = colors.arrow_background_leader } }
-	local prefix = ""
-
-	-- leaader is active
-	if window:leader_is_active() then
-		prefix = " " .. leader_prefix
-
-		if tab_style == "rounded" then
-			solid_left_arrow = wezterm.nerdfonts.ple_right_half_circle_thick
-		else
-			solid_left_arrow = wezterm.nerdfonts.pl_left_hard_divider
-		end
-
-		local tabs = window:mux_window():tabs_with_info()
-
-		if tab_style ~= "rounded" then
-			for _, tab_info in ipairs(tabs) do
-				if tab_info.is_active and tab_info.index == 0 then
-					arrow_background = { Foreground = { Color = colors.tab_bar_active_tab_fg } }
-					solid_left_arrow = wezterm.nerdfonts.pl_right_hard_divider
-					break
-				end
-			end
-		end
-	end
-
-	window:set_left_status(wezterm.format({
-		{ Background = { Color = colors.arrow_foreground_leader } },
-		{ Text = prefix },
-		arrow_foreground,
-		arrow_background,
-		{ Text = solid_left_arrow },
-	}))
-end)
-
+config.front_end = "WebGpu"
 -- and finally, return the configuration to wezterm
 return config
