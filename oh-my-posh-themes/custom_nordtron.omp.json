@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#88c0d0",
+          "style": "plain",
+          "template": "<#5e81ac>\u250f[</>{{ .UserName }}<#5e81ac>]</>",
+          "type": "session"
+        },
+        {
+          "foreground": "#b48ead",
+          "properties": {
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "plain",
+          "template": "<#5e81ac>-[</>{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }}<#5e81ac>]</>",
+          "type": "git"
+        },
+        {
+          "foreground": "#d8dee9",
+          "properties": {
+            "time_format": "15:04"
+          },
+          "style": "plain",
+          "template": "<#5e81ac>-[</><#d8dee9>{{ .CurrentDate | date .Format }}<#5e81ac>]</>",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#a3be8c",
+          "properties": {
+            "fetch_virtual_env": true,
+            "fetch_version": true
+          },
+          "style": "plain",
+          "template": "<#5e81ac>[</>\ue235 {{ if .Venv }}{{ .Venv }}{{ else }}base{{ end }} {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}<#5e81ac>]</>",
+          "type": "python"
+        },
+        {
+          "foreground": "#81a1c1",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "plain",
+          "template": "<#5e81ac>[</>\ue71e {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}<#5e81ac>]</>",
+          "type": "node"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#88c0d0",
+          "style": "plain",
+          "template": "<#5e81ac>\u2517[</>{{ .Path }}<#5e81ac>]</>",
+          "properties": {
+            "style": "full"
+          },
+          "type": "path"
+        },
+        {
+          "foreground": "#d8dee9",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#bf616a{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "\u276f ",
+          "type": "status"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
