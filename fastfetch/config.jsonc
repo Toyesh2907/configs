@@ -1,13 +1,17 @@
 {
 	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "padding": {
-      "top": 1,
-    },
-    "source": "C://Users//kunwa//.config//fastfetch//logs_gifs//btc-mechanics-ordinals.gif",
-    "type": "iterm",
-    "width": 22
-  },
+	"logo": {
+		"source": "DarkOS",
+		// "source": "lainos",
+		// "source": "C://Users//kunwa//.config//fastfetch//logs_gifs//cat_fishbowl_logo.txt",
+		// "source": "C://Users//kunwa//.config//fastfetch//logs_gifs//coffee_logo.txt",
+		// "source": "C://Users//kunwa//.config//fastfetch//logos_txt//castle_ascii.txt",
+		// "source": "C://Users//kunwa//.config//fastfetch//logos_txt//fairy_ascii.txt",
+		//   "padding": {
+		// 	"top": 1,
+		// 	"left": 2
+		// }
+	},
 	"display": {
 		"separator": "  "
 	},
@@ -17,84 +21,104 @@
 			"key": "迷えば敗れる",
 			"keyColor": "blue"
 		},
-		// "break",
+		"break",
 		{
 			"type": "os",
 			"key": "╭─󰯉",
-			"keyColor": "yellow"
+			"keyColor": "magenta"
 		},
 		{
 			"type": "kernel",
 			"key": "├─",
 			"format": "{1} {2}",
-			"keyColor": "yellow"
+			"keyColor": "magenta"
+		},
+		{
+			"type": "packages",
+			"key": "├─󰮯",
+			"keyColor": "magenta"
 		},
 		{
 			"type": "de",
 			"key": "├─",
-			"keyColor": "yellow"
+			"keyColor": "magenta"
+		},
+		{
+			"type": "wm",
+			"key": "├─",
+			"keyColor": "magenta"
 		},
 		{
 			"type": "lm",
 			"key": "├─󰧨",
-			"keyColor": "yellow"
+			"keyColor": "magenta"
 		},
-		// "break",
+		{
+			"type": "theme",
+			"key": "├─󰉼",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "icons",
+			"key": "╰─󰀻",
+			"keyColor": "magenta"
+		},
+		"break",
 		// One entry for every partition
 		// {
 		// 	"type": "disk",
 		// 	"key": "├─",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		// {
 		// 	"type": "brightness",
 		// 	"key": "├─󰃞",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		// {
 		// 	"type": "battery",
 		// 	"key": "├─",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		// {
 		// 	"type": "poweradapter",
 		// 	"key": "├─",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		// {
 		// 	"type": "gamepad",
 		// 	"key": "├─",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		// {
 		// 	"type": "bluetooth",
 		// 	"key": "├─",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		// {
 		// 	"type": "sound",
 		// 	"key": "╰─",
-		// 	"keyColor": "yellow"
+		// 	"keyColor": "green"
 		// },
 		{
 			"type": "terminal",
-			"key": "├─",
-			"keyColor": "yellow"
+			"key": "╭─",
+			"keyColor": "green"
 		},
 		{
 			"type": "terminalfont",
 			"key": "├─",
-			"keyColor": "yellow"
+			"keyColor": "green"
 		},
 		{
 			"type": "shell",
-			"key": "├─",
-			"keyColor": "yellow"
+			"key": "╰─",
+			"keyColor": "green"
 		},
-		// "break",
+		"break",
 		{
 			"type": "host",
-			"key": "├─",
+			"key": "╭─",
 			"keyColor": "yellow"
 		},
 		{
@@ -131,6 +155,11 @@
 			"type": "uptime",
 			"key": "╰─󰅐",
 			"keyColor": "yellow"
-		},
+		}
+	//	"break",
+	//	{ 
+	//		"type": "custom",
+	//		"format": "\u001b[1m\u001b[31m  \u001b[1m\u001b[32m  \u001b[1m\u001b[33m  \u001b[1m\u001b[34m  \u001b[1m\u001b[35m  \u001b[1m\u001b[36m  \u001b[1m\u001b[37m  \u001b[1m\u001b[30m       \u001b[1m\u001b[91m  \u001b[1m\u001b[92m  \u001b[1m\u001b[93m  \u001b[1m\u001b[94m  \u001b[1m\u001b[95m  \u001b[1m\u001b[96m  \u001b[1m\u001b[97m  \u001b[1m\u001b[90m"
+	//	} 
 	]
 }
