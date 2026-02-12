@@ -77,12 +77,24 @@ Font
 --
 
 -- config.font = wezterm.font_with_fallback({ "FiraCode Nerd Font Mono Bold" })
+
+-- config.font = wezterm.font_with_fallback({ "JetBrainsMonoNL Nerd Font" })
+
 config.font = wezterm.font_with_fallback({
 	{
-		family = "CaskaydiaMono Nerd Font Mono",
-		-- , weight = "SemiBold"
+		family = "JetBrainsMonoNL Nerd Font",
+		-- weight = "SemiBold",
 	},
 })
+
+-- config.font = wezterm.font_with_fallback({
+-- 	{
+-- 		family = "CaskaydiaMono Nerd Font Mono",
+-- 		-- family = "JetBrainsMonoNL Nerd Font",
+-- 		-- , weight = "SemiBold"
+-- 	},
+-- })
+
 config.font_size = 12
 
 config.window_decorations = "RESIZE"
@@ -104,10 +116,10 @@ Colors
 -- }
 
 -- Optional: slight transparency for a softer look
-config.window_background_opacity = 0.975
+config.window_background_opacity = 0.95
 -- config.window_background_opacity = 1.0
 
-config.color_scheme = "GruvboxDarkHard"
+-- config.color_scheme = "GruvboxDarkHard"
 -- config.color_scheme = "Catppuccin Macchiato"
 -- color_scheme not sufficient in providing available colors
 -- local colors = wezterm.color.get_builtin_schemes()[color_scheme]
