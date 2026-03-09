@@ -1,5 +1,5 @@
 -- Set your preferred colorscheme here
-local COLORSCHEME = "tokyodark" -- Options: "catppuccin", "gruvbox", "onedark", "tokyodark", "bamboo"
+local COLORSCHEME = "rose-pine" -- Options: "catppuccin", "gruvbox", "onedark", "tokyodark", "bamboo", "rose-pine"
 
 local colorschemes = {
     catppuccin = {
@@ -18,6 +18,7 @@ local colorschemes = {
             },
         },
     },
+
     gruvbox = {
         {
             "ellisonleao/gruvbox.nvim",
@@ -31,6 +32,7 @@ local colorschemes = {
             },
         },
     },
+
     onedark = {
         {
             "navarasu/onedark.nvim",
@@ -42,6 +44,7 @@ local colorschemes = {
             },
         },
     },
+
     tokyodark = {
         {
             "tiagovla/tokyodark.nvim",
@@ -52,6 +55,7 @@ local colorschemes = {
             },
         },
     },
+
     bamboo = {
         {
             "ribru17/bamboo.nvim",
@@ -59,24 +63,31 @@ local colorschemes = {
             opts = {},
         },
     },
+
+    ["rose-pine"] = {
+        {
+            "rose-pine/neovim",
+            name = "rose-pine",
+            priority = 1000,
+            opts = {
+                variant = "moon", -- main, moon, dawn
+                dark_variant = "moon",
+                disable_background = true,
+                disable_float_background = true,
+                disable_italics = false,
+            },
+        },
+    },
 }
 
 -- Get the selected colorscheme configuration
 local selected = colorschemes[COLORSCHEME] or colorschemes.bamboo
 
--- Add LazyVim colorscheme configuration
-table.insert(selected, {
-    "LazyVim/LazyVim",
-    opts = {
-        colorscheme = COLORSCHEME,
-    },
-})
-
--- Add transparent cursorline configuration
+-- Add LazyVim colorscheme + transparent cursorline configuration
 table.insert(selected, {
     "LazyVim/LazyVim",
     opts = function(_, opts)
-        -- Set up an autocmd to make cursorline transparent after colorscheme loads
+        opts.colorscheme = COLORSCHEME
         vim.api.nvim_create_autocmd("ColorScheme", {
             pattern = "*",
             callback = function()

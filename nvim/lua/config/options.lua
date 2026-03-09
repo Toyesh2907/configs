@@ -1,4 +1,7 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
-vim.g.colors_name = "gruvbox"
+vim.opt.tabstop = 4 -- Number of spaces a tab counts for
+vim.opt.shiftwidth = 4 -- Number of spaces for each indentation
+vim.opt.softtabstop = 4 -- Number of spaces tab counts for in insert mode
+vim.g.snacks_animate_scroll = false
