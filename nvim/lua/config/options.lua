@@ -30,4 +30,16 @@ if vim.g.neovide then
 
     -- Background image (matching your wezterm wallpaper)
     -- vim.g.neovide_background_image = "C:/Users/kunwa/Downloads/wallhaven-76edpv_1920x1080.png"
+
+    -- Clipboard
+    local function copy()
+        vim.cmd([[normal! "+y]])
+    end
+    local function paste()
+        vim.api.nvim_paste(vim.fn.getreg("+"), true, -1)
+    end
+
+    vim.keymap.set({ "n", "i", "v" }, "<C-s>", "<cmd>write<cr>", { desc = "Save" })
+    vim.keymap.set("v", "<C-c>", copy, { silent = true, desc = "Copy" })
+    vim.keymap.set({ "n", "i", "v", "c", "t" }, "<C-v>", paste, { silent = true, desc = "Paste" })
 end
