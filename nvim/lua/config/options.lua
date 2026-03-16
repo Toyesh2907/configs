@@ -6,7 +6,8 @@ vim.opt.shiftwidth = 4 -- Number of spaces for each indentation
 vim.opt.softtabstop = 4 -- Number of spaces tab counts for in insert mode
 vim.g.snacks_animate_scroll = false
 
-vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:block-blinkon500-blinkoff500-blinkwait300,r-cr-o:hor50"
+vim.api.nvim_set_hl(0, "Cursor", { reverse = true })
+vim.opt.guicursor = "n-v-c-sm:block-Cursor,i-ci-ve:ver30-blinkon500-blinkoff500-blinkwait300-Cursor,r-cr-o:hor15-Cursor"
 
 if vim.g.neovide then
     -- Font (matching your WezTerm setup)
@@ -41,5 +42,5 @@ if vim.g.neovide then
 
     vim.keymap.set({ "n", "i", "v" }, "<C-s>", "<cmd>write<cr>", { desc = "Save" })
     vim.keymap.set("v", "<C-c>", copy, { silent = true, desc = "Copy" })
-    vim.keymap.set({ "n", "i", "v", "c", "t" }, "<C-v>", paste, { silent = true, desc = "Paste" })
+    vim.keymap.set({ "i", "c", "t" }, "<S-Insert>", paste, { silent = true, desc = "Paste" })
 end
