@@ -7,7 +7,8 @@ vim.opt.softtabstop = 4 -- Number of spaces tab counts for in insert mode
 vim.g.snacks_animate_scroll = false
 
 vim.api.nvim_set_hl(0, "Cursor", { reverse = true })
-vim.opt.guicursor = "n-v-c-sm:block-Cursor,i-ci-ve:ver30-blinkon500-blinkoff500-blinkwait300-Cursor,r-cr-o:hor15-Cursor"
+-- vim.opt.guicursor = "n-v-c-sm:block-Cursor,i-ci-ve:ver30-blinkon500-blinkoff500-blinkwait300-Cursor,r-cr-o:hor15-Cursor"
+vim.opt.guicursor = "n-v-c-sm:block-Cursor,i-ci-ve:block-Cursor,r-cr:underline-Cursor,o:hor15-Cursor"
 
 if vim.g.neovide then
     -- Font (matching your WezTerm setup)
